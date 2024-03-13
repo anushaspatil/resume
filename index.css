@@ -1,0 +1,306 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-sizing: border-box;
+}
+
+
+.container{
+  padding: 20px 80px 20px 80px;
+  
+}
+
+.contentInfo{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.personalDetails{
+  width: 25em;
+  height: 100em;
+  line-height: 1.8;
+  color: white;
+  background-color: #0a1520;
+}
+
+.personalDetails h2:first-child{
+  margin-top: 20%;
+}
+
+.personalDetails h2{
+  font-size: 25px;
+  margin: 0 0 0 20px;
+  color: rgb(238, 104, 9);
+  cursor: pointer;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.personalDetails h2:hover{
+  color: rgb(234, 208, 243);
+}
+
+.personalDetails ul{
+  list-style-type:square;
+}
+
+.contact{
+  padding: 10px;
+  margin: 0 0 30px 40px;
+}
+
+.Professional{
+  padding: 5px;
+  margin: 0 0 20px 40px;
+}
+
+.Professional p{
+  padding-right: 20px;
+  text-align:justify;
+}
+
+.competencies{
+  padding: 10px;
+  margin: 0 0 20px 40px;
+}
+
+.intrest{
+  padding: 10px;
+  margin: 0 0 20px 40px;
+}
+
+.Qualification{
+  padding: 10px;
+  margin: 0 0 20px 40px;
+}
+
+.awards{
+  padding: 10px;
+  margin: 0 0 20px 40px;
+}
+
+.site_links{
+  padding: 10px;
+  margin: 0 0 30px 40px;
+}
+
+.site_links a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* middle */
+.middle{
+  border: 5px dotted white;
+}
+
+
+
+/* Main section */
+.ExperienceInfo{
+  padding: 40px;
+  background-image: linear-gradient(to right , #0a1520, rgb(104, 59, 104));
+  color: white;
+}
+
+.ExperienceInfo h3, h4{
+  color: chocolate;
+}
+
+.ExperienceInfo h3:hover{
+  color: rgb(234, 208, 243);
+}
+
+.ExperienceInfo h1{
+  margin-top: 5%;
+}
+
+.expirence h3{
+  font-size: 25px;
+  text-decoration: underline;
+  margin-top: 12%;
+}
+
+.expirence h4{
+  font-size: 1.2em;
+  margin-top: 1.8em;
+  line-height: 1.5;
+}
+
+.expirence h6{
+  margin-left: 10px;
+  font-size: 0.7em;
+  font-weight:bold;
+}
+
+.expirence ul{
+  font-size: 1em ;
+  padding: 25px;
+  list-style-type: square;
+  line-height: 2.5;
+  margin-left: 30px;
+}
+
+.education h3{
+  font-size: 25px;
+  text-decoration: underline;
+  margin: 40px 0 -30px 0;
+}
+
+.acadamic{
+  width: 35em;
+  font-size: 1.2em;
+  margin-left: 30px;
+  line-height: 2.5; 
+ } 
+
+
+
+.skills h3{
+  font-size: 25px;
+  text-decoration: underline;
+  margin: 50px 0 20px 0;
+}
+
+.skills .skill_info{
+  width: 35em;
+  font-size: 1.2em;
+  margin-left: 30px;
+  line-height: 2.5; 
+  list-style-type: none;
+}
+
+.bar{
+  height: 15px;
+  display: block;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0,1px 2px rgba(0,0,0,0.24);
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.bar:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),0,10px 10px rgba(0,0,0,0.22);
+}
+
+.bar span{
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
+}
+
+.html{
+  width: 90%;
+  animation: html 3s;
+}
+
+.css{
+  width: 85%;
+  animation: html 3s;
+}
+
+.js{
+  width: 85%;
+  animation: html 3s;
+}
+
+.reactjs{
+  width: 85%;
+  animation: html 3s;
+}
+
+.nodejs{
+  width: 85%;
+  animation: html 3s;
+}
+
+.mongoDB{
+  width: 88%;
+  animation: html 3s;
+}
+
+.Tailwind{
+  width: 75%;
+  animation: Tailwind 3s;
+}
+
+.ccna{
+  width: 60%;
+  animation: ccna 3s;
+}
+
+@keyframes html {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes js {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes reactjs {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes nodejs {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes mongoDB {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes Tailwind {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes ccna {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
