@@ -304,3 +304,69 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .container{
+    padding: 0;
+    /* margin: 30px; */
+    overflow: hidden;
+  }
+
+  .contentInfo{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .personalDetails{
+    width: 18em;
+    height: 100%;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    line-height: 1.8;
+  }
+
+  .personalDetails h2:first-child{
+    margin-top: 50%;
+  }
+
+  .personalDetails{
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .personalDetails h2{
+    font-size: 18px;
+  }
+
+  .Professional p{
+    word-spacing: 1px;
+    text-align: left;
+    line-height: 1.5em;
+    padding-right: 0;
+  }
+  
+  .site_links .github{
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 100px;
+    margin-left: 0;
+  }
+
+  .ExperienceInfo{
+    width: 60rem;
+    font-size: 14px;
+  }
+
+  .ExperienceInfo h3{
+    font-size: 18px;
+  }
+
+  .skills .skill_info{
+    width: 30em;
+    font-size: 1.2em;
+    margin-left: 30px;
+    line-height: 2.5; 
+    list-style-type: none;
+  }
+  
+}
