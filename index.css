@@ -340,17 +340,13 @@
   }
 
   .contentInfo{
-    height: 100%;
-    display: flex;
-    flex-direction: row;
+    width: 100%;
   }
 
   .personalDetails{
     width: 18em;
-    height: 100%;
-    padding-bottom: 100px;
-    box-sizing: border-box;
-    line-height: 1.8;
+    font-size: 16px;
+    /* padding-bottom: 80px; */
   }
 
   .personalDetails h2:first-child{
@@ -358,23 +354,19 @@
   }
 
   .personalDetails h1{
-    font-size: 1.5em;
-  }
-
-  .personalDetails{
-    font-size: 18px;
-    text-align: justify;
+    font-size: 28px;
+    padding-bottom: 50px;
   }
 
   .personalDetails h2{
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .Professional p{
-    word-spacing: 1px;
-    text-align: left;
+    word-spacing: 0px;
+    text-align: justify;
     line-height: 1.5em;
-    padding-right: 0;
+    padding-right: 6px;
   }
   
   /* .site_links .github{
@@ -385,22 +377,41 @@
   } */
 
   .ExperienceInfo{
-    width: 60rem;
-    font-size: 14px;
+    width: 800px;
+    /* font-size: 14px; */
   }
 
   .ExperienceInfo h3{
-    font-size: 18px;
+    font-size: 20px;
+  }
+
+  .ExperienceInfo h4{
+    padding-left: 20px ;
+    font-size: 19px;
+  }
+
+  .expirence ul{
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .education .acadamic {
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 50px;
   }
 
   .skills .skill_info{
     width: 30em;
-    font-size: 1.2em;
-    margin-left: 30px;
+    padding-left: 50px;
+    box-sizing: border-box;
     line-height: 2.9; 
     list-style-type: none;
   }
   
+  .skills .skill_info h5{
+    font-size: 17px;
+  }
 }
 
 /* ------------------SCREEN - 900--------------------- */
@@ -459,7 +470,7 @@
 
   .ExperienceInfo h4{
     padding-left: 20px ;
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .expirence ul{
@@ -476,10 +487,14 @@
 
   .skills .skill_info{
     width: 22em;
-    font-size: 1.28em;
-    margin-left: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
     line-height: 2.9; 
     list-style-type: none;
+  }
+
+  .skills .skill_info h5{
+    font-size: 16px;
   }
   
 }
@@ -511,18 +526,17 @@
 
   .personalDetails h2{
     padding-left: 0px;
-    margin-top: 30px;
+    padding-top: 10px;
   }
 
   .Professional p{
-    word-spacing: 2px;
+    /* word-spacing: 0px; */
     text-align: justify;
-    padding-right: 6px;
   }
 
   .personalDetails ul{
     padding: 0px;
-    margin: 0 0 0px -16px;
+    margin: 0 0 0px -12px;
     list-style-type:square;
   }
 
@@ -539,46 +553,42 @@
 
   .ExperienceInfo h3{
     padding-left: 20px ;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .ExperienceInfo h4{
     padding-left: 20px ;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .expirence ul{
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .education .acadamic {
     font-size: 14px;
-    font-weight: 600;
-    margin-left: 30px;
-    padding-left: 25px;
+    font-weight: 500;
+    padding-left: 22px;
   }
-
 
   .acadamic .row1{
     line-height: 18px;
    }
-  
-  .acadamic{
-    width: 32em;
-    font-size: 14px;
-    line-height: 2.5; 
-   } 
-  
+
+
    .skills .skill_info{
-    width: 25em;
-    font-size: 14px;
+    width: 20em;
     font-weight: 500;
     margin-left: 30px;
     line-height: 2.5; 
     padding-left: 25px;
     box-sizing: border-box;
     list-style-type: none;
+  }
+
+  .skills .skill_info h5{
+    font-size: 14px;
   }
 
   .skills .skill_info li{
@@ -726,21 +736,24 @@
   }
 
   .education .acadamic{
-    /* width: 32em; */
+    padding-left: 20px;
     font-size: 16px;
     font-weight: 500;
-    /* line-height: 2.5;  */
+    line-height: 2.5; 
    } 
   
    .skills .skill_info{
-    width: 16em;
-    font-size: 1.4em;
+    width: 18em;
     margin-left: 30px;
     line-height: 2.5;
     padding-left: 20px;
     box-sizing: border-box;
     list-style-type: none;
     padding-bottom: 40px;
+  }
+
+  .skills .skill_info h5{
+    font-size: 16px;
   }
   
   .middle{
