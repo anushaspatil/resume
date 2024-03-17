@@ -97,6 +97,13 @@
   color: aliceblue;
 }
 
+.site_links .github{
+  height: 40px;
+  background-color: whitesmoke;
+  border-radius: 100px;
+  margin-left: 0;
+}
+
 .site_links{
   display: flex;
   flex-direction: row;
